@@ -1,0 +1,11 @@
+mongo db / my sql
+ html
+js 
+css
+python
+react
+expret js
+node.js
+java
+langular
+freemwordk-flask

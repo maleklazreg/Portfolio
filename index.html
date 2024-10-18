@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>docu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Malek <span>Lazreg</span></a>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="mlkk.PNG" alt="" >
+        </div>
+
+
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>Its' <span>Malek</span></h1>
+            <h3>I'm a <span>web developer</span></h3>
+            <p>Hi, I'm malek, a dedicated web developer with a strong passion for building responsive and
+                user-friendly websites. With experience in HTML, CSS and JavaScript, I
+                specialize in creating interactive, dynamic websites that focus on functionality. My
+                design background complements my development skills, ensuring seamless collaboration between the design
+                and technical aspects of projects. I enjoy problem-solving and staying updated with the latest trends to
+                deliver efficient, high-quality web solutions.
+            </p>
+            <div class="socials-icons">
+                <a href="https://www.linkedin.com/in/malek-lazreg-48622a2b0/">
+                    <i class='bx bxl-linkedin'></i></a>
+                <a href="lazregmalek30@gmail.com">
+                    <i class='bx bxl-gmail'></i></a>
+                <a href="https://github.com/maleklazreg?tab=overview&from=2024-08-01&to=2024-08-31"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+            <a id="downlaod" href="cvv.PNG" download="MyCV.PNG" class="btn">Download cv</a>
+        </div>
+
+
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-conatainer">
+
+            <div class="services-box">
+                <img src="num1.jpg" alt="">
+                <div class="services-info">
+                    <h4>Graphic Design</h4>
+                    <a href="https://www.interaction-design.org/literature/topics/graphic-design"><i class='bx bxl-figma'></i></a>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <img src="num2.jpg" alt="">
+                <div class="services-info">
+                    <h4>Web Development</h4>
+                    <a href="https://www.geeksforgeeks.org/web-development/"><i class='bx bx-code-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <img src="num3.jpg" alt="">
+                <div class="services-info">
+                    <h4>Fronted Development</h4>
+                    <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp"><i class='bx bx-code'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+
+        <div class="skill-bars">
+
+            <div class="bar">
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <span>JavaScript</span>
+                </div>
+                <div class="progress-line js">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <span>Python</span>
+                </div>
+                <div class="progress-line python">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <span>MyScl</span>
+                </div>
+                <div class="progress-line ccharp">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <span>Figma</span>
+                </div>
+                <div class="progress-line figma">
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-conatainer">
+
+            <div class="projects-box" onmouseover="showVideo('myVideo1')" onmouseout="removeVideo('myVideo1')">
+                <div class="pro">
+                    <video id="myVideo1" width="100%" height="100%">
+                        <source src="2024-10-17 18-32-28.mkv" type="video/mp4">
+                    </video>
+                    <div class="projects-info" onmouseover="removeH('Graphic')" onmouseout="showH('Graphic')">
+                        <h4 id="Graphic">My Profile</h4>
+                        <a
+                            href="https://www.figma.com/design/GuCygYRSyROPu54S0ba8DZ/Untitled?node-id=0-1&m=dev&t=MFEhIhJZ5HS04kAh-1"><i
+                                class='bx bxl-figma'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-box" onmouseover="showVideo('myVideo2')" onmouseout="removeVideo('myVideo2')">
+                <div class="pro">
+                    <video id="myVideo2" width="100%" height="100%">
+                        <source src="2024-10-17 18-02-57.mkv" type="video/mp4">
+                    </video>
+                    <div class="projects-info" onmouseover="removeH('Graphi')" onmouseout="showH('Graphi')">
+                        <h4 id="Graphi">DojoWeather</h4>
+                        <a
+                        href="https://github.com/maleklazreg/web_fundament_sep24/tree/main/Week02/Day02/Core/DojoWeather">
+                        <i class='bx bx-code-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="projects-box" onmouseover="showVideo('myVideo3')" onmouseout="removeVideo('myVideo3')">
+                <div class="pro">
+                    <video id="myVideo3" width="100%" height="100%">
+                        <source src="2024-10-17 18-11-31.mkv" type="video/mp4">
+                    </video>
+                    <div class="projects-info" onmouseover="removeH2('Fronted')" onmouseout="showH2('Fronted')">
+                        <!-- <h4 id="Fronted">Fronted Development</h4> -->
+                        <h4 id="Fronted">Profile Page</h4>
+                        <a
+                            href="https://github.com/maleklazreg/web_fundament_sep24/tree/main/Week01/Day04/Core/profil%20page/profile">
+                            <i class='bx bx-code'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline-section" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>1ere anner seconder lycce abou al kasem chebbi b chebba</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Bootcamp</h3>
+                    <p>Nefel Education - Coodin Dojo </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact" id="contact">
+        <input type="hidden" name="access_key" value="187d7201-a7fe-41dc-a23a-9afe5fa0586b">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name" name="Full name">
+                <input type="email" placeholder="Email" name="email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number" name="phone number">
+                <input type="text" placeholder="Subject" name="subjerct">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="ur message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+    </form>
+
+    <div class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/malek-lazreg-48622a2b0/">
+                <i class='bx bxl-linkedin'></i></a>
+            <a href="lazregmalek30@gmail.com">
+                <i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/maleklazreg?tab=overview&from=2024-08-01&to=2024-08-31">
+                <i class='bx bxl-github'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="https://www.state.gov/privacy-policy/">Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+             Malek Lazreg | All Rights Reversed
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
